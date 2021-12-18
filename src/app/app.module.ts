@@ -10,6 +10,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
+// Charts
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -21,7 +25,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     FlexLayoutModule,
     // Material
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    // Charts
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
