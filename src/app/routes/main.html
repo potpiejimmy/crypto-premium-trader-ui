@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-title>💵 Assets</mat-card-title>
+
+    <mat-card-subtitle>Your current investements</mat-card-subtitle>
+    
+    <div style="height: 240px;">
+        <ngx-charts-number-card
+            [view]="[300,200]"
+            [scheme]="colorScheme"
+            [results]="single"
+            [cardColor]="cardColor">
+        </ngx-charts-number-card>
+    </div>
+
+    <assetcard></assetcard>
+    
+</mat-card>

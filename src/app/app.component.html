@@ -1,23 +1,9 @@
 <div fxLayout="column" fxLayoutGap="1em">
 
-    <mat-toolbar color="primary">
-        <span>💵 Dashboard | Premium Trading</span>
+    <mat-toolbar color="warn">
+        <span>Premium Trading | Dashboard</span>
     </mat-toolbar>
 
-    <mat-card>
-        <mat-card-title>Assets</mat-card-title>
-
-        <mat-card-subtitle>Nice to meet you.</mat-card-subtitle>
-        
-        <ngx-charts-number-card
-            [view]="view"
-            [scheme]="colorScheme"
-            [results]="single"
-            [cardColor]="cardColor">
-        </ngx-charts-number-card>
-
-    </mat-card>
-
-    <router-outlet></router-outlet>
+    <router-outlet style="display: block;"></router-outlet>
 
 </div>
